@@ -4,12 +4,15 @@ import { redirect } from 'next/navigation';
 import MainDisplay from '@/components/Main-display';
 import Header from '@/components/header';
 import DisplayAvator from '@/components/display-avator';
+import ClothingList from '@/components/ClothingCardList';
+import { getClothingItems } from '@/lib/firestore';
 
 export default async function mypage() {
    const currentUser = await getCurrentUser();
    if (!currentUser) {
       redirect('/login');
    }
+   const clothingItems = await getClothingItems();
    return (
       <>
          <Header>
@@ -20,6 +23,7 @@ export default async function mypage() {
             />
          </Header>
          <MainDisplay />
+         <ClothingList items={clothingItems} />
       </>
    );
 }
