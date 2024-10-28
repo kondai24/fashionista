@@ -6,6 +6,19 @@ Fashionista は、天気に基づいた適切な服装を提案する AI アプ�
 
 [デプロイ済みアプリケーションはこちらからアクセスできます](https://fashionista-hellohackathon-ci1qglw8y-kondai24s-projects.vercel.app/)
 
+## 製作者
+
+-  [kondai24](https://github.com/kondai24)
+-  [ryolingo](https://github.com/ryolingo)
+-  [ahiru401066](https://github.com/ahiru401066)
+-  [MiinaDoi](https://github.com/MiinaDoi)
+
+## 元のリポジトリ
+
+このリポジトリは以下の元のリポジトリをクローンしたものです:
+
+-  [fashonista](https://github.com/ryolingo/fashonista)
+
 ## 機能概要
 
 -  **天気情報取得**: 今日の天気情報を自動で取得し、現在の気候に適した服装を判断します。
@@ -19,10 +32,3 @@ Fashionista は、天気に基づいた適切な服装を提案する AI アプ�
 -  **Firebase**: 認証と Firestore データベースとして使用
 -  **Google Gemini**: AI を使った服装提案
 -  **Google Search API**: 提案服装の関連画像を表示
-
-## 製作者
-
--  [kondai24](https://github.com/kondai24)
--  [ryolingo](https://github.com/ryolingo)
--  [ahiru401066](https://github.com/ahiru401066)
--  [MiinaDoi](https://github.com/MiinaDoi)
