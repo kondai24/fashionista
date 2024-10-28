@@ -4,7 +4,7 @@ Fashionista は、天気に基づいた適切な服装を提案する AI アプ�
 
 ## デモ
 
-[デプロイ済みアプリケーションはこちらからアクセスできます](https://fashionista-hellohackathon-ci1qglw8y-kondai24s-projects.vercel.app/)
+[デプロイ済みアプリケーションはこちらからアクセスできます](https://fashionista-hellohackathon.vercel.app/)
 
 ## 製作者
 
